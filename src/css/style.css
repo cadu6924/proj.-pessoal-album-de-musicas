@@ -1,0 +1,47 @@
+.music-library {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.song {
+    border: 3px inset #bfc0c0;
+    padding: 10px;
+    border-radius: 30px;
+}
+.song h2, .song p {
+    margin: 0;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+h1{
+    color: #edf2f4;
+    background-color: #212529;
+    border-radius: 30px;
+    padding: 10px;
+}
+h2 {
+    color: #edf2f4;
+}
+h3 {
+    color: #edf2f4;
+}
+p {
+    color: #edf2f4;
+}
+a{
+    font-size: 25px;
+    color: #edede9;
+    text-decoration: none;
+    background-color:#6c757d;
+    padding: 7px;
+    border-radius: 20px;
+}
+body {
+     background-color: #343a40;
+}
+
